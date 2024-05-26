@@ -4,11 +4,15 @@ import (
 	"encoding/json"
 	"errors"
 	"os"
+
+	"pari/passkey-v2/encryption"
 )
 
 type DB struct {
 	Data []dbItem `json:"data"`
 }
+
+var ENCRYPTION_KEY = []byte(os.Getenv("GO_PASSKEY"))
 
 type dbItem struct {
 	Key   string `json:"key"`
@@ -22,7 +26,9 @@ func (t *DB) Set(key string, val string) error {
 		}
 	}
 
-	item := dbItem{Key: key, Value: val}
+  encryptedValue := encryption.Encrypt(val, ENCRYPTION_KEY)
+
+	item := dbItem{Key: key, Value: encryptedValue}
 	t.Data = append(t.Data, item)
 	return nil
 }
@@ -30,7 +36,7 @@ func (t *DB) Set(key string, val string) error {
 func (t *DB) Get(key string) (error, dbItem) {
 	for _, val := range t.Data {
 		if val.Key == key {
-			return nil, val
+			return nil, dbItem{Key: val.Key, Value: encryption.Decrypt(val.Value, ENCRYPTION_KEY)}
 		}
 	}
 
@@ -55,9 +61,9 @@ func (t *DB) Delete(key string) error {
 }
 
 func (t *DB) List() {
-  for _, val := range t.Data {
-    println(val.Key, val.Value)
-  }
+	for _, val := range t.Data {
+		println(val.Key, val.Value)
+	}
 }
 
 func (t *DB) Load(filePath string) error {

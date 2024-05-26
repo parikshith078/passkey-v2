@@ -8,6 +8,7 @@ import (
 	"strings"
 )
 
+
 func GetDotfilePath() string {
 	usr, err := user.Current()
 	if err != nil {
