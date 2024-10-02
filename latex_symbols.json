@@ -1,0 +1,347 @@
+[
+  {
+    "symbol": "α",
+    "info": "Greek letter alpha",
+    "latex": "\\alpha"
+  },
+  {
+    "symbol": "β",
+    "info": "Greek letter beta",
+    "latex": "\\beta"
+  },
+  {
+    "symbol": "γ",
+    "info": "Greek letter gamma",
+    "latex": "\\gamma"
+  },
+  {
+    "symbol": "δ",
+    "info": "Greek letter delta",
+    "latex": "\\delta"
+  },
+  {
+    "symbol": "ε",
+    "info": "Greek letter epsilon",
+    "latex": "\\epsilon"
+  },
+  {
+    "symbol": "ζ",
+    "info": "Greek letter zeta",
+    "latex": "\\zeta"
+  },
+  {
+    "symbol": "η",
+    "info": "Greek letter eta",
+    "latex": "\\eta"
+  },
+  {
+    "symbol": "θ",
+    "info": "Greek letter theta",
+    "latex": "\\theta"
+  },
+  {
+    "symbol": "ι",
+    "info": "Greek letter iota",
+    "latex": "\\iota"
+  },
+  {
+    "symbol": "κ",
+    "info": "Greek letter kappa",
+    "latex": "\\kappa"
+  },
+  {
+    "symbol": "λ",
+    "info": "Greek letter lambda",
+    "latex": "\\lambda"
+  },
+  {
+    "symbol": "μ",
+    "info": "Greek letter mu",
+    "latex": "\\mu"
+  },
+  {
+    "symbol": "ν",
+    "info": "Greek letter nu",
+    "latex": "\\nu"
+  },
+  {
+    "symbol": "ξ",
+    "info": "Greek letter xi",
+    "latex": "\\xi"
+  },
+  {
+    "symbol": "ο",
+    "info": "Greek letter omicron",
+    "latex": "\\omicron"
+  },
+  {
+    "symbol": "π",
+    "info": "Greek letter pi",
+    "latex": "\\pi"
+  },
+  {
+    "symbol": "ρ",
+    "info": "Greek letter rho",
+    "latex": "\\rho"
+  },
+  {
+    "symbol": "σ",
+    "info": "Greek letter sigma",
+    "latex": "\\sigma"
+  },
+  {
+    "symbol": "τ",
+    "info": "Greek letter tau",
+    "latex": "\\tau"
+  },
+  {
+    "symbol": "υ",
+    "info": "Greek letter upsilon",
+    "latex": "\\upsilon"
+  },
+  {
+    "symbol": "φ",
+    "info": "Greek letter phi",
+    "latex": "\\phi"
+  },
+  {
+    "symbol": "χ",
+    "info": "Greek letter chi",
+    "latex": "\\chi"
+  },
+  {
+    "symbol": "ψ",
+    "info": "Greek letter psi",
+    "latex": "\\psi"
+  },
+  {
+    "symbol": "ω",
+    "info": "Greek letter omega",
+    "latex": "\\omega"
+  },
+  {
+    "symbol": "Ω",
+    "info": "Ohm (uppercase omega)",
+    "latex": "\\Omega"
+  },
+  {
+    "symbol": "∞",
+    "info": "Infinity",
+    "latex": "\\infty"
+  },
+  {
+    "symbol": "∑",
+    "info": "Summation symbol",
+    "latex": "\\sum"
+  },
+  {
+    "symbol": "∏",
+    "info": "Product symbol",
+    "latex": "\\prod"
+  },
+  {
+    "symbol": "∫",
+    "info": "Integral",
+    "latex": "\\int"
+  },
+  {
+    "symbol": "√",
+    "info": "Square root",
+    "latex": "\\sqrt"
+  },
+  {
+    "symbol": "≠",
+    "info": "Not equal",
+    "latex": "\\neq"
+  },
+  {
+    "symbol": "≈",
+    "info": "Approximately equal",
+    "latex": "\\approx"
+  },
+  {
+    "symbol": "≤",
+    "info": "Less than or equal to",
+    "latex": "\\leq"
+  },
+  {
+    "symbol": "≥",
+    "info": "Greater than or equal to",
+    "latex": "\\geq"
+  },
+  {
+    "symbol": "∈",
+    "info": "Element of",
+    "latex": "\\in"
+  },
+  {
+    "symbol": "∉",
+    "info": "Not an element of",
+    "latex": "\\notin"
+  },
+  {
+    "symbol": "⊂",
+    "info": "Subset of",
+    "latex": "\\subset"
+  },
+  {
+    "symbol": "⊆",
+    "info": "Subset or equal to",
+    "latex": "\\subseteq"
+  },
+  {
+    "symbol": "⊄",
+    "info": "Not a subset of",
+    "latex": "\\nsubset"
+  },
+  {
+    "symbol": "⊇",
+    "info": "Superset or equal to",
+    "latex": "\\supseteq"
+  },
+  {
+    "symbol": "∅",
+    "info": "Empty set",
+    "latex": "\\emptyset"
+  },
+  {
+    "symbol": "∧",
+    "info": "Logical AND",
+    "latex": "\\land"
+  },
+  {
+    "symbol": "∨",
+    "info": "Logical OR",
+    "latex": "\\lor"
+  },
+  {
+    "symbol": "¬",
+    "info": "Logical NOT",
+    "latex": "\\neg"
+  },
+  {
+    "symbol": "⇒",
+    "info": "Logical implication",
+    "latex": "\\implies"
+  },
+  {
+    "symbol": "⇔",
+    "info": "Logical equivalence",
+    "latex": "\\iff"
+  },
+  {
+    "symbol": "∠",
+    "info": "Angle",
+    "latex": "\\angle"
+  },
+  {
+    "symbol": "∥",
+    "info": "Parallel to",
+    "latex": "\\parallel"
+  },
+  {
+    "symbol": "⊥",
+    "info": "Perpendicular to",
+    "latex": "\\perp"
+  },
+  {
+    "symbol": "⟨",
+    "info": "Angle bracket left",
+    "latex": "\\langle"
+  },
+  {
+    "symbol": "⟩",
+    "info": "Angle bracket right",
+    "latex": "\\rangle"
+  },
+  {
+    "symbol": "∘",
+    "info": "Composition",
+    "latex": "\\circ"
+  },
+  {
+    "symbol": "⨀",
+    "info": "Circle dot",
+    "latex": "\\odot"
+  },
+  {
+    "symbol": "⨁",
+    "info": "Circle plus",
+    "latex": "\\oplus"
+  },
+  {
+    "symbol": "⨂",
+    "info": "Circle times",
+    "latex": "\\otimes"
+  },
+  {
+    "symbol": "⊕",
+    "info": "Direct sum",
+    "latex": "\\oplus"
+  },
+  {
+    "symbol": "⊗",
+    "info": "Tensor product",
+    "latex": "\\otimes"
+  },
+  {
+    "symbol": "∂",
+    "info": "Partial derivative",
+    "latex": "\\partial"
+  },
+  {
+    "symbol": "∇",
+    "info": "Nabla (del)",
+    "latex": "\\nabla"
+  },
+  {
+    "symbol": "⊢",
+    "info": "Right tack",
+    "latex": "\\vdash"
+  },
+  {
+    "symbol": "⊣",
+    "info": "Left tack",
+    "latex": "\\dashv"
+  },
+  {
+    "symbol": "ℵ",
+    "info": "Aleph symbol",
+    "latex": "\\aleph"
+  },
+  {
+    "symbol": "ℓ",
+    "info": "Script l",
+    "latex": "\\ell"
+  },
+  {
+    "symbol": "ℜ",
+    "info": "Real part",
+    "latex": "\\Re"
+  },
+  {
+    "symbol": "ℑ",
+    "info": "Imaginary part",
+    "latex": "\\Im"
+  },
+  {
+    "symbol": "ℤ",
+    "info": "Set of integers",
+    "latex": "\\mathbb{Z}"
+  },
+  {
+    "symbol": "ℚ",
+    "info": "Set of rationals",
+    "latex": "\\mathbb{Q}"
+  },
+  {
+    "symbol": "ℝ",
+    "info": "Set of real numbers",
+    "latex": "\\mathbb{R}"
+  },
+  {
+    "symbol": "ℂ",
+    "info": "Set of complex numbers",
+    "latex": "\\mathbb{C}"
+  }
+]
